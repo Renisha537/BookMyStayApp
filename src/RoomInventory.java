@@ -31,6 +31,7 @@ public class RoomInventory {
         return roomAvailability;
     }
 
+
     public void updateAvailability(String roomType, int count) {
         roomAvailability.put(roomType, count);
     }
