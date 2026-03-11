@@ -1,23 +1,3 @@
-* ==========================================================
-* MAIN CLASS – UseCase1HotelBookingApp
-* ==========================================================
-*
-* Use Case 1: Application Entry & Welcome Message
-*
-* Description:
-* This class represents the entry point of the
-* Hotel Booking Management System.
-*
-* At this stage, the application:
-* - Starts execution from the main() method
-* - Displays a welcome message to the user
-* - Confirms that the system has started successfully
-*
-* No business logic, data structures, or user input
-* is implemented in this use case.
-*
-* The goal is to establish a clear and predictable
-* application startup point.
-*
-* @author Renisha
-* @version 1.0
+This use case implements a search feature that enables guests to check room availability in the hotel booking system. The search operation retrieves room availability from the centralized inventory and displays only the room types that are currently available. The system uses room domain objects to present room details such as type, pricing, and amenities.
+
+The search functionality is designed to be read-only, meaning it does not modify the inventory or booking data. This ensures that room searches remain safe operations and do not interfere with booking or allocation logic.
