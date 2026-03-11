@@ -4,7 +4,7 @@
  * ==========================================================
  *
  * Use Case 1: Application Entry & Welcome Message
- *
+
  * Description:
  * This class represents the entry point of the
  * Hotel Booking Management System.
@@ -22,7 +22,7 @@
  *
  * @author Renisha
  * @version 1.0
- /**
+ **/
 
 public class BookMyStayApp {
 
