@@ -26,7 +26,9 @@ public class RoomInventory {
         roomAvailability.put("Suite", 2);
 
     }
-
+    public int getAvailableRooms(String roomType) {
+        return roomAvailability.getOrDefault(roomType, 0);
+    }
     public Map<String, Integer> getRoomAvailability() {
         return roomAvailability;
     }
